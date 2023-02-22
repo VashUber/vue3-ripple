@@ -1,7 +1,7 @@
 {
   "name": "vue3-ripple",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -43,5 +43,6 @@
     }
   },
   "main": "./dist/index.umd.js",
-  "module": "./dist/index.es.js"
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts"
 }
