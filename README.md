@@ -30,7 +30,7 @@ Default color rgba(226, 237, 255, 0.5)
 ## Modify color
 
 ```js
-<button class="btn" v-ripple="{color: rgba(0, 0, 0, 0.5)}">
+<button class="btn" v-ripple="{color: 'rgba(0, 0, 0, 0.5)'}">
   click
 </button>
 ```

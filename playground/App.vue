@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button class="btn" v-ripple>click</button>
+    <button class="btn" v-ripple="{ color: 'rgba(0, 0, 0, 0.5)' }">
+      click
+    </button>
   </div>
 </template>
 
