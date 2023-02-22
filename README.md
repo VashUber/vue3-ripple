@@ -11,7 +11,7 @@ This package provide directive for ripple effect on click
 ```js
 import { createApp } from "vue";
 import App from "./App.vue";
-import { ripple } from "../src/ripple";
+import { ripple } from "vue3-ripple";
 
 const app = createApp(App);
 
