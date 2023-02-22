@@ -1,7 +1,7 @@
 {
   "name": "vue3-ripple",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,9 +21,6 @@
   },
   "peerDependencies": {
     "vue": "^3.2.45"
-  },
-  "dependencies": {
-    "vue3-ripple": "^1.0.1"
   },
   "keywords": [
     "vue",
