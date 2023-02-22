@@ -1,0 +1,22 @@
+.ripple {
+  transform-origin: center;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  animation: ripple ease-in 0.6s;
+  pointer-events: none;
+  will-change: transform;
+}
+
+@keyframes ripple {
+  0% {
+    opacity: 100%;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(220);
+  }
+}
