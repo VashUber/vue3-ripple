@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 import vue from "@vitejs/plugin-vue";
 import dts from "vite-plugin-dts";
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 
 export default defineConfig(({ mode }) => {
   return {
@@ -12,6 +13,7 @@ export default defineConfig(({ mode }) => {
         entryRoot: resolve(__dirname, "src"),
         outputDir: resolve(__dirname, "dist"),
       }),
+      cssInjectedByJsPlugin()
     ],
     build: {
       lib: {
