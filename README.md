@@ -11,11 +11,11 @@ This package provide directive for ripple effect on click
 ```js
 import { createApp } from "vue";
 import App from "./App.vue";
-import Ripple from "../src/ripple";
+import { ripple } from "../src/ripple";
 
 const app = createApp(App);
 
-app.directive("ripple", Ripple);
+app.directive("ripple", ripple);
 app.mount("#app");
 ```
 

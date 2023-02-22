@@ -1,1 +1,1 @@
-export * as Ripple from "./ripple";
+export { ripple } from "./ripple";

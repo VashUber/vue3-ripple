@@ -5,7 +5,7 @@ type RippleBindings = {
   color?: string;
 };
 
-const ripple: Directive<HTMLElement, RippleBindings> = {
+export const ripple: Directive<HTMLElement, RippleBindings> = {
   mounted(el, bindings) {
     const color = bindings.value?.color;
 
@@ -30,5 +30,3 @@ const ripple: Directive<HTMLElement, RippleBindings> = {
     });
   },
 };
-
-export default ripple;
